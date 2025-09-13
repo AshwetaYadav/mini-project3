@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Details</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body.employeedetails {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #007BFF;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e0f7fa;
+        }
+
+        @media (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+                width: 100%;
+            }
+
+            tr {
+                margin-bottom: 15px;
+            }
+        }
+        </style>
+        
+    <body class="employeedetails">
+        <h1>Employee Details</h1>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <td>1321</td>
+                <td>Shaurya Sharma</td>
+                <td>Manager</td>
+                <td>Management</td>
+            </tr>
+            <tr>
+                <td>6789</td>
+                <td>Shresha S</td>
+                <td>HR</td>
+                <td>HR </td>
+            </tr>
+            <tr>
+                <td>5678</td>
+                <td>Sakshi Shukla</td>
+                <td>BA</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>8765</td>
+                <td>Nisha Verma</td>
+                <td>Sales manager</td>
+                <td>Sales</td>
+            </tr>
+            <tr>
+                <td>60266</td>
+                <td>Vaishnavi Ojha</td>
+                <td>Developer</td>
+                <td>IT</td>
+            </tr>
+        </table>
+    </body>
+</html>
